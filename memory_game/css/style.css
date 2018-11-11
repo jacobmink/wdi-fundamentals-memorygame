@@ -32,6 +32,15 @@ a:hover {
 	border-bottom: 2px solid white;
 }
 
+button {
+padding: 10px 20px;
+background-color: #0b28ca;
+color: white;
+font-size: 24px;
+font-family: "Raleway", sans-serif;
+border-radius: 15px;
+}
+
 h2 {
 font-family: "Raleway", sans-serif;
 font-weight: 600;
