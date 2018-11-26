@@ -44,8 +44,13 @@ var createBoard = function() {
 }
 
 var buttonReset = function() {
-	// for (var i = 0; i < cards.length; i++) {}
-	location.reload();
+	cardsInPlay = [];
+	var parentNode = document.getElementById('game-board');
+	while (parentNode.firstChild) {
+		parentNode.removeChild(parentNode.firstChild);
+	};
+	createBoard();
+	// location.reload();
 }
 
 createBoard();
